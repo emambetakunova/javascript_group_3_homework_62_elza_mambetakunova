@@ -4,8 +4,8 @@ import './Footer.css';
 
 const Footer = (props) => {
     return (
-        <div className="footerContent">
-            <p>&#169; {props.text}</p>
+        <div className="footer">
+            <p>&#169; Copyright 2018 by Elza Studio</p>
         </div>
 
     )

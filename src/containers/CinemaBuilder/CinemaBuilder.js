@@ -9,9 +9,9 @@ import Footer from "../../components/FooterComponent/Footer";
 class CinemaBuilder extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="Container">
                 <div className="header">
-                    <Header home={'home'} about={'about'} movies={'movies'}/>
+                    <Header />
                 </div>
                 <div className="wrapper">
                     <div className="movieWrap">
@@ -39,7 +39,7 @@ class CinemaBuilder extends Component {
                     </div>
                 </div>
                 <div className="footer">
-                    <Footer text={'Copyright 2018 by Elza Studio'}/>
+                    <Footer />
                 </div>
             </div>
         );
