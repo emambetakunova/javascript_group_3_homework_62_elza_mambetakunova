@@ -1,0 +1,20 @@
+
+.sidebar {
+    margin: 5px 0 5px 5px;
+    padding: 20px 15px;
+    width: 30%;
+    border: 1px solid #ffbb42;
+}
+.sidebar  h4 {
+    color: #ffbb42;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebarContent {
+    border-bottom: 1px solid #ffbb42;
+}
+.sidebarContent:last-child {
+    border-bottom: none;
+}

@@ -1,0 +1,25 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    background: #ffbb42;
+    padding: 20px 0;
+    margin: 0 0 20px 0;
+}
+.logo {
+    display: inline-block;
+    font-size: 40px;
+    margin: 0 0 0 40px;
+    font-weight: bold;
+}
+.main-nav ul {
+    text-transform: uppercase;
+    padding: 15px 0 0 0;
+    margin: 0;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.main-nav li {
+    display: inline-block;
+    margin-right: 60px;
+}
